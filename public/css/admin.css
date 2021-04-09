@@ -1,0 +1,85 @@
+.pFormular{
+    margin: 20px 0;
+}
+#warningContainer{
+    border:5px solid rgb(126, 172, 145);
+    background: rgb(13, 73, 39);
+    color:rgb(126, 172, 145);
+    font-size: 1.4rem;
+    padding: 5px;
+    line-height: 2rem;
+    text-align: center;
+    margin-top:20px;
+}
+
+#eingabenContainer{
+    margin: 15px 30% ;
+    width: 50%;
+}
+
+.cLabel{
+    width: 120px;
+    display: inline-block; 
+    text-align: right;
+    padding-right: 5px;
+    vertical-align: top;
+    font-weight: bold;
+}
+.cLabel:after{
+    content:": ";
+}
+.cFeld{
+    background: none;
+    border:none;
+    border-bottom: 1px solid rgb(13, 73, 39);
+    font: 0.8rem Verdana, sans-serif;
+    width: 300px; 
+    outline: none; 
+}
+.cFeld:focus{
+    background:rgb(224, 243, 232);
+}
+.cFeldLogin{
+    margin: 10px 0 30px 0;
+    font-size: 1.3rem;   
+    background:rgb(224, 243, 232);
+    border:none;
+    border-bottom: 1px solid rgb(13, 73, 39);
+    width: 300px; 
+    outline: none; 
+    border-radius: 2px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25) inset;
+    border: 1px solid yellowgreen;
+}
+.formButton{
+    margin:1.5rem 0 0 10rem;
+}
+h2{
+    color:rgb(13, 73, 39);
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    
+}
+#loginFormular{
+    color:rgb(13, 73, 39);
+    padding: 3rem 3rem 1.5rem 3rem;
+    margin: 2rem 0 2rem 15%;
+    font-size: 1.6rem;
+    width: 70%;
+    background: rgb(183, 214, 196);
+}  
+.alignCenter{
+    text-align: center;
+} 
+.rot{
+    border-bottom: 2px solid rgb(136, 15, 15);
+    
+}
+.datenPflicht{
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-style: italic;
+    margin-left:8rem;
+    color:rgb(136, 15, 15);
+}

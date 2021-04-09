@@ -1,0 +1,3 @@
+# Ignore all sub-directories and it's contents:
+Docs/
+node_modules/

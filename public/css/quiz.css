@@ -1,0 +1,116 @@
+p{
+    margin: 10px 0;
+}
+#flexSpalten{
+    margin-top:15px;
+    display: flex;
+    justify-content:space-between;
+}
+nav{
+    flex-basis: 50%;
+    margin-top:20px;
+}
+#countDownContainer{
+    margin-right: 10px;
+    background: blue;
+    line-height: 90px;
+    width: 90px;
+    font-size: 3rem;
+    text-align: center;
+    color:#7eac91;
+    border:3px solid #7eac91;
+    border-radius: 50%
+}
+#quizContainer{
+    margin: 1rem 0;
+    border:5px solid rgb(126, 172, 145);
+}
+.frage{
+    margin: 1rem;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.antworten{
+    margin: 2rem 0;
+}
+.antwort{
+    margin: 1rem 25rem;
+    padding: 10px;
+    font-size: 1.4rem;
+    border:1px solid rgb(126, 172, 145);
+}
+input[type=radio]{
+    -webkit-transform: scale(1.3); 
+    transform: scale(1.3);
+}
+.alignCenter{
+    text-align: center;
+} 
+.textSize{
+    font-size: 2rem;
+}
+.infoQuiz{
+    padding: 10px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color:rgb(13, 73, 39);
+    line-height: 3rem;
+    background: rgb(224, 243, 232);
+    border-bottom:2px solid rgb(126, 172, 145);
+}
+.counters{
+    padding-left: 13rem;
+}
+.space{
+    padding-left: 15px;
+}
+.result{
+    padding-left: 22rem;
+}
+.rot{
+    background: red;
+}
+.rot2{
+    color: red;
+}
+.gruen{
+    background: green;
+}
+.gruen2{
+    color: green;
+}
+.disabled{
+    /* This makes it not clickable*/
+    pointer-events:none;  
+}
+progress{
+  width: 400px;
+  height: 25px;
+  color:blue;
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25) inset;
+}
+#bereiche{
+    width: 20%;
+    background: rgb(183, 214, 196);
+    margin: 1rem 40%;
+    font-size: 1.3rem;
+    padding: 5px 0 5px 30px;
+}
+input[type=checkbox]{
+    margin-top:5px;
+    margin-left:25px;
+}
+#btnBereich{
+    margin-left:1rem;
+    width: 170px;
+    line-height: 35px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:blue;
+    background: rgb(104, 174, 253);
+    border:2px solid blue;
+    margin-bottom: 1rem;
+}
+
